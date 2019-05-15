@@ -33,3 +33,6 @@ if (message.content.startsWith(prefix + 'setavatar')) {
       message.channel.send(` ☑ Client Activity Now Is : \` ${argresult} \` `)
 }
 });
+
+
+client.login(process.env.BOT_TOKEN);
