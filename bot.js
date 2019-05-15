@@ -1,4 +1,4 @@
-const developers = ['your id'];
+const developers = ['431096859000438786'];
 client.on('message', message => {
     var prefix = =)"
     var argresult = message.content.split(` `).slice(1).join(' ');
